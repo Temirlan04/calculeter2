@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculeter">
         <activity
+            android:theme="@style/Splash.Theme"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
