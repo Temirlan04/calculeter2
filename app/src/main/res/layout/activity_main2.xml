@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/policies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_green"
+        android:text="Policies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+
+    <EditText
+        android:id="@+id/policy"
+        android:drawableEnd="@drawable/ic_baseline_arrow_right_24"
+        app:layout_constraintTop_toBottomOf="@+id/policies"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/red2"
+        android:text="Policy"
+        android:paddingStart="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/radios"
+        android:layout_marginHorizontal="20sp" />
+<EditText
+    android:id="@+id/product"
+        android:drawableEnd="@drawable/ic_baseline_arrow_right_24"
+        app:layout_constraintTop_toBottomOf="@+id/policy"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/red2"
+        android:text="Product Category"
+        android:paddingStart="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/radios"
+        android:layout_marginHorizontal="20sp" />
+<EditText
+    android:id="@+id/origin"
+        android:drawableEnd="@drawable/ic_baseline_arrow_right_24"
+        app:layout_constraintTop_toBottomOf="@+id/product"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/red2"
+        android:text="Origin Country"
+        android:paddingStart="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/radios"
+        android:layout_marginHorizontal="20sp" />
+<EditText
+    android:id="@+id/Brand"
+        android:drawableEnd="@drawable/ic_baseline_arrow_right_24"
+        app:layout_constraintTop_toBottomOf="@+id/origin"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/red2"
+        android:text="Brand"
+        android:paddingStart="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/radios"
+        android:layout_marginHorizontal="20sp" />
+
+    <TextView
+        android:id="@+id/Current"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_green"
+        android:text="Current Policies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="222dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+   <Button
+       android:id="@+id/Export"
+       android:layout_width="230dp"
+       android:layout_height="55dp"
+       app:layout_constraintTop_toBottomOf="@+id/Current"
+       android:layout_marginTop="16dp"
+       android:text="Export as CSV"
+       android:textColor="@color/white"
+       android:background="@drawable/radios2"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:background="@drawable/white1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:textColorHint="@color/white"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
