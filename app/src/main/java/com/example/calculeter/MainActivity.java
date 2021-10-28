@@ -2,6 +2,7 @@ package com.example.calculeter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Switch;
@@ -152,7 +153,16 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+
+
+
     }
 
+    public void onPut2Activity(View view) {
+        Intent intent = new Intent(this, MainActivity2.class);
+        String text = tv_result.getText().toString();
+        intent.putExtra("key1",text);
+        startActivity(intent);
 
+    }
 }

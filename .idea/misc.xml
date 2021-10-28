@@ -4,8 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/drawable/bg_splash_screen.xml" value="0.25925925925925924" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.26875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/drawable/radios.xml" value="0.26875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/drawable/radios2.xml" value="0.26875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/drawable/radios_button.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/drawable/white1.xml" value="0.26875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/layout-v26/activity_main.xml" value="0.12864583333333332" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/layout/activity_main2.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/calculeter/app/src/main/res/layout/policies.xml" value="0.12284701114488349" />
       </map>
     </option>
   </component>

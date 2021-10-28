@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculeter">
         <activity
-            android:theme="@style/Splash.Theme"
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Splash.Theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
